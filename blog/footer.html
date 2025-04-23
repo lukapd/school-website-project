@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  html,body{
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+  <div style="height:2000px;background-color:red;"></div>
+
+  <iframe src="body.html"   scrolling="no" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:100%;width:100%;border:none;overflow:hidden;"></iframe>
+  
+</body>
+</html> 
